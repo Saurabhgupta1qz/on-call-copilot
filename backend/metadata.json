@@ -1,0 +1,6 @@
+{
+  "name": "On-Call Copilot",
+  "description": "AI Incident Commander with Hindsight Memory for Site Reliability Engineers",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
