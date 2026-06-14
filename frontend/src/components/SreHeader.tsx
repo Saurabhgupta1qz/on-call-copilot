@@ -58,7 +58,7 @@ export default function SreHeader({ onUrlChange }: SreHeaderProps) {
                   value={backendUrl}
                   onChange={(e) => setBackendUrl(e.target.value)}
                   className="bg-slate-900 text-slate-200 text-xs font-mono rounded px-2 py-0.5 border border-slate-700 focus:outline-none focus:border-sky-500 max-w-[200px]"
-                  placeholder="http://localhost:8000"
+                  placeholder="https://on-call-copilot.onrender.com"
                   autoFocus
                 />
                 <button

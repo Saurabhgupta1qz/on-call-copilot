@@ -2,7 +2,8 @@ import { AnalysisResponse, TeachResponse } from "../types";
 
 export class ApiService {
   public static getBaseUrl(): string {
-    return localStorage.getItem("COPILOT_BACKEND_URL") || "http://localhost:8000";
+    
+    return localStorage.getItem("COPILOT_BACKEND_URL") || "https://on-call-copilot.onrender.com";
   }
 
   public static setBaseUrl(url: string): void {
